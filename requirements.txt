@@ -1,0 +1,5 @@
+Flask
+boto3
+numpy
+sentence-transformers
+pymilvus

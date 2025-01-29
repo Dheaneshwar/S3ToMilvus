@@ -1,0 +1,11 @@
+services:
+  flask-app:
+    build: .
+    container_name: flask-app
+    ports:
+      - "5000:5000"
+    environment:
+      - MILVUS_HOST=172.31.87.167 
+      - MILVUS_PORT=19530
+      - MILVUS_USER=devAdmin
+      - MILVUS_PASSWORD=hysbf3$^456FHb
